@@ -12,36 +12,55 @@
 	   <meta name="description" content="Svelte demo app" />
    </svelte:head>
    
-  <main class="contaner">
-	
+   <section class="box-container">
 	{#each documents as document}		
-	        <section class="content">
-			
+	        
+				<article class="cards-content">
 
 					<h2>{@html prismic.asText(document.data.title)}</h2>
 					<article>
-					 {@html prismic.asText(document.data.content)}
+							{@html prismic.asHTML(document.data.content)}
 					</article>
+
+				</article>
 				
-			</section>
+			
 
 	{/each}
+
+   </section>
 	
-  </main>
    
    <style>
-	.contaner{
+	
+	.box-container{
+		display:block;
+		/* flex-direction: column; */
+		/* justify-content: center;
+		align-items: center; */
 		 width: 1080px;
-		align-items: center;
+		 /* height: 40rem; */
+		 /* gap: 2em; */
+		 padding: 2em;
+		 overflow:hidden;
+		 overflow-x: scroll;
+
 	}
 
-	.content{
-		margin: 3rem;
-		background-color: var(--blue);
-		color: rgb(229, 234, 239);
-		width: 50vw;
-		height: 20vh;
-
+	.cards-content{
+		width: 20em;
+		height: 20em;
+		padding: 1em;
+		margin: 1rem;
+		border-radius: var(--radius);
+		background-color:var(--blue);
+		color: var(--green);
+	}
+	h2{
+		padding: 1em;
+	}
+	.cards-content>article{
+		padding: 1em;
 	}
    
    </style>

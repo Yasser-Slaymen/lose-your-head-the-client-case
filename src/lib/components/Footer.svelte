@@ -18,8 +18,7 @@
     </nav>
 
 
-    <span class="quot">Creatring Tomorrow</span>
-    <p class="author">Created by Yasser Al Sleiman<span>&copy;</span>FDND</p>
+   
     
 </footer>
 <style>
@@ -30,7 +29,8 @@ footer{
     justify-content: center;
     align-items: center;
     /* width:fit-content; */
-    /* margin-top: 2em; */
+    margin-top: 2em;
+    margin-bottom: 1rem;
     color: var(--blue);
 }
 footer nav{
@@ -113,15 +113,7 @@ footer h2 {
      justify-content: space-between;
 
   }
-  .quot{
-      display: grid;
-      place-items: left;
-      margin: 3%;
-      font-size: 1.5em;
-      color: var(--blue);
-      margin-bottom: 1em;
-    }  
-    
+ 
    
    
 </style>

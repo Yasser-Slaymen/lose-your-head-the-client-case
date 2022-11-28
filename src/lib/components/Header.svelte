@@ -1,11 +1,11 @@
 <script>
-    import welcome_fallback from '$lib/images/logo.png'; 
+    import welcome_fallback from '$lib/images/we-love.png'; 
  </script>
  <nav>
      <section class="logo">
          <span class="welcome">
              <picture>
-                 <img src={welcome_fallback} alt="Welcome" />
+                <img src={welcome_fallback} alt="Welcome" />
              </picture>
          </span>
      
@@ -16,6 +16,12 @@
  </nav>
  
  <style>
+
+
+    img{
+        margin-left:-7em;
+        height: 4rem;
+    }
  nav{
      display: flex;
      flex-direction: column;

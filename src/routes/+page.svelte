@@ -34,22 +34,23 @@
    <style>
 	
 	.box-container{
-		display:block;
+		display:flex;
 		/* flex-direction: column; */
-		/* justify-content: center;
-		align-items: center; */
+		justify-content: center;
+		align-items: center; 
 		 width: 1080px;
-		 /* height: 40rem; */
-		 /* gap: 2em; */
+		 height: 40rem;
+		 gap: 2em;
 		 padding: 2em;
-		 overflow:hidden;
+		 overflow-y:hidden;
 		 overflow-x: scroll;
+		 scroll-behavior: smooth;
 
 	}
 
 	.cards-content{
 		width: 20em;
-		height: 20em;
+		height: 25em;
 		padding: 1em;
 		margin: 1rem;
 		border-radius: var(--radius);

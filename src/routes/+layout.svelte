@@ -1,19 +1,28 @@
 <script>
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte'
+	import Hva from '$lib/components/Hva.svelte';
 	import './styles.css';
 </script>
 
-<div class="app">
-	<Header/>
+<body>
+	<section class="hva">
+		<Hva/>
+	</section>
 
-	<main>
-		<slot />
-	</main>
-	<Footer/>
+	
+	<div class="app">
+		
+		<Header/>
+
+		<main>
+			<slot />
+		</main>
+		<Footer/>
 
 
-</div>
+	</div>
+</body>
 
 <style>
 	.app {
@@ -21,9 +30,13 @@
 		flex-direction: column;
 		min-height: 100vh;
 		background-color:var(--green);
+		border-radius: 1em;
 		width: 1080px;
 
 	}
+	/* .hva{
+		margin-left: 0;
+	} */
 
 	/* main {
 		flex: 1;

@@ -1,0 +1,34 @@
+:root {
+    --white: #ffffff;
+    --blue: #050542;
+    --green: #66e5bf;
+    --purple: #a675f5;
+    --lavender-dark: hsl(263, 86%, 60%);
+    --attention-background: #05054233;
+    --call-to-action: #fffc86;
+    --rounded: 0.2rem;
+    --pilled: 2rem;
+    --shadow: 0.3rem;
+    --radius:1em
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	background-attachment: fixed;
+	background-color:var(--blue) ;
+	background-size: 100vw 100vh;
+	color: var(--blue);
+	font-family: 'Open Sans', sans-serif;
+
+
+}

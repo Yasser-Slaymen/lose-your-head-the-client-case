@@ -3,7 +3,7 @@
     import * as prismic from '@prismicio/helpers';
 	export let data;
   const {documents} = data
-  console.log(documents);
+//   console.log(documents);
 	
    </script>
    

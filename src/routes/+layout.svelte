@@ -26,6 +26,8 @@
 	.app {
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		min-height: 100vh;
 		background-color:var(--green);
 		border-radius: 1em;

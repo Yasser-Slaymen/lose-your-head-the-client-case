@@ -11,8 +11,30 @@
 	   <title>Home</title>
 	   <meta name="description" content="Svelte demo app" />
    </svelte:head>
+
+
+   <table class="box-container">
+		{#each documents as document}	
+
+				<tr>
+					<article class="cards-content">
+
+						<h2>{@html prismic.asText(document.data.title)}</h2>
+						<article>
+							{@html prismic.asHTML(document.data.content)}
+						</article>
+
+					</article>
+
+				</tr>
+						
+
+		{/each}
+
+	</table>
+	
    
-   <section class="box-container">
+   <!-- <section class="box-container">
 	{#each documents as document}		
 	        
 				<article class="cards-content">
@@ -23,39 +45,60 @@
 					</article>
 
 				</article>
-				
-			
+					
 
 	{/each}
 
    </section>
-	
+	 -->
    
    <style>
+	:root{
+		--purples:rgb(165, 118, 244);
+
+	}
 	
 	.box-container{
 		display:flex;
-		/* flex-direction: column; */
 		justify-content: center;
 		align-items: center; 
-		 width: 1080px;
-		 height: 40rem;
-		 gap: 2em;
-		 padding: 2em;
-		 overflow-y:hidden;
-		 overflow-x: scroll;
-		 scroll-behavior: smooth;
+		width: 1000px;
+		height: 28rem;
+		gap: 1.5em;
+		padding: 3em;
+		overflow-y:hidden;
+		overflow-x: scroll;
+		scroll-behavior: smooth;
+		margin-bottom: 1em;
+	}
+	/* scrollbar */
+	.box-container::-webkit-scrollbar{
+		width:50px;
+	}
+	.box-container::-webkit-scrollbar-thumb{
+		background-color:var(--blue) ;
+	}
+	.box-container::-webkit-scrollbar-track{
+		background-color:var(--purples);
 
 	}
+	.box-container::-webkit-scrollbar-button{
+		width:10em;
+	}
+	
 
 	.cards-content{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
 		width: 20em;
-		height: 25em;
+		height: 20em;
 		padding: 1em;
-		margin: 1rem;
 		border-radius: var(--radius);
-		background-color:var(--blue);
-		color: var(--green);
+		background-color:var(--purples);
+		color: var(--blue);
+		
 	}
 	h2{
 		padding: 1em;

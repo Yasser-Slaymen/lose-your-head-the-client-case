@@ -80,7 +80,7 @@ footer h2 {
  footer h2::before{
     content: "";
     position: absolute;
-    top: 57px;
+    top: 53px;
     right: calc(0 * var(--rounded));
     box-shadow: 0 calc(-1 * var(--rounded)) 0 0 var(--blue);
     background-color:transparent;

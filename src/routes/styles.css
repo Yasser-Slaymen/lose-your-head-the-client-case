@@ -17,6 +17,7 @@
     padding: 0;
 }
 
+
 body {
 	display: flex;
 	flex-direction: column;
@@ -24,6 +25,7 @@ body {
 	align-items: center;
 	min-height: 100vh;
 	margin: 0;
+    overflow-x: hidden;
 	background-attachment: fixed;
 	background-color:var(--blue) ;
 	background-size: 100vw 100vh;

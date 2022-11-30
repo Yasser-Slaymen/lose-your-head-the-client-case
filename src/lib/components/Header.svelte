@@ -11,7 +11,7 @@
      
      </section>
      <h1>
-         studiejaar 2022-2023
+         Studiejaar 2022-2023
      </h1>
  </nav>
  

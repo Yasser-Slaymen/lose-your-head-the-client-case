@@ -19,5 +19,8 @@
 		"typescript": "^4.7.4",
 		"vite": "^3.1.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@prismicio/helpers": "^2.3.6"
+	}
 }

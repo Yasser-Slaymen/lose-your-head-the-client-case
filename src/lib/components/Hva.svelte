@@ -1,5 +1,4 @@
 <script>
-import Hva from '$lib/images/havlogo.svg'; 
 
 </script>
 

@@ -21,6 +21,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@prismicio/client": "^6.7.1",
 		"@prismicio/helpers": "^2.3.6"
 	}
 }

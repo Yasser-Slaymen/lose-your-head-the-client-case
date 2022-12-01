@@ -31,9 +31,4 @@
     font-size: 2rem;
     text-align: center;
   }
-  /* a{
-    color: inherit;
-    font-size: 1.3rem;
-    background-color:var(--purples) ;
-  } */
 </style>

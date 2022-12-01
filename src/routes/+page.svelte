@@ -10,6 +10,7 @@
   <title>Home</title>
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
+<a href="/about">Try another layout</a>
 
 <table class="box-container">
   {#each documents as document}
@@ -24,23 +25,6 @@
   {/each}
 </table>
 
-<!-- <section class="box-container">
-	{#each documents as document}		
-	        
-				<article class="cards-content">
-
-					<h2>{@html prismic.asText(document.data.title)}</h2>
-					<article>
-							{@html prismic.asHTML(document.data.content)}
-					</article>
-
-				</article>
-					
-
-	{/each}
-
-   </section>
-	 -->
 <style>
   :root {
     --purples: rgb(165, 118, 244);
@@ -90,5 +74,17 @@
   }
   .cards-content > article {
     padding: 1em;
+  }
+  a{
+    color: var(--blue);
+    font-size:1.2em;
+    background-color: var(--purples);
+    padding: .8rem;
+    border-radius: var(--radius);
+    text-decoration: none;
+  }
+  a:hover{
+    color:white;
+    background-color:var(--blue);
   }
 </style>

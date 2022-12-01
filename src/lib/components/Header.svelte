@@ -11,6 +11,7 @@
     </span>
   </section>
   <h1>Studiejaar 2022-2023</h1>
+  
 </nav>
 
 <style>
@@ -30,4 +31,9 @@
     font-size: 2rem;
     text-align: center;
   }
+  /* a{
+    color: inherit;
+    font-size: 1.3rem;
+    background-color:var(--purples) ;
+  } */
 </style>

@@ -1,38 +1,34 @@
-# create-svelte
+# We Love Web
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+![Screenshot (73)](https://user-images.githubusercontent.com/90189815/205488279-1064c0a9-d95b-491b-bd45-f107adae5428.png)
 
-## Creating a project
+## Link to project https://lose-your-head-the-client-case-1e9f.vercel.app/
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## 🧭Beschrijving
+Dit repository voor Fdnd we love web . Hierbij wordden er Interviewschema bekend, als iemand interesse heeft, Dan kan hij makkelijk de specific presentatie vinden met behulp van  Prismic.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-```bash
-npm run dev
+## ☸️Kenmerken
+* HTML
+* CSS
+* Sveltekit
+* Prismic
+* Figma
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
 
-## Building
+## 🧭Installatie & Gebruik
+* Cloning the repository
+git clone git@github.com:Yasser-Slaymen/lose-your-head-the-client-case.git
+* Moving to the folder
+cd lose-your-head-the-client-case
+* Install NPM packages
+npm install
+* Run local server
+npm run start
 
-To create a production version of your app:
+## 🧭 Bronnen
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+* (https://kit.svelte.dev/docs/adapters) for your target environment.

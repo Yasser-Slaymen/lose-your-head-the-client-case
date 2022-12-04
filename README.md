@@ -20,16 +20,16 @@ Dit repository voor Fdnd we love web . Hierbij wordden er Interviewschema bekend
 
 
 ## 🧭Installatie & Gebruik
-# Cloning the repository
-git clone git@github.com:JustinLung/lose-your-head-the-client-case.git
+### Cloning the repository
+git clone git@github.com:Yasser-Slaymen/lose-your-head-the-client-case.git
 
-# Moving to the folder
+### Moving to the folder
 cd lose-your-head-the-client-case
 
-# Install NPM packages
+### Install NPM packages
 npm install
 
-# Run local server
+### Run local server
 npm run start
 
 You can preview the production build with `npm run preview`.

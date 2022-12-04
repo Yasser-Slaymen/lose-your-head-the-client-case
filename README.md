@@ -5,22 +5,19 @@
 ## Link to project https://lose-your-head-the-client-case-1e9f.vercel.app/
 
 
-## Beschrijving
+## 🧭Beschrijving
 Dit repository voor Fdnd we love web . Hierbij wordden er Interviewschema bekend, als iemand interesse heeft, Dan kan hij makkelijk de specific presentatie vinden met behulp van  Prismic.
 
 
 
 
-## Developing
+## ☸️Kenmerken
+* HTML
+* CSS
+* Sveltekit
+* Prismic
+* Figma
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
 
 ## Building
 

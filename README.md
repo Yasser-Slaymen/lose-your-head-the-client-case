@@ -3,12 +3,13 @@
 ![Screenshot (73)](https://user-images.githubusercontent.com/90189815/205488279-1064c0a9-d95b-491b-bd45-f107adae5428.png)
 
 ## Link to project https://lose-your-head-the-client-case-1e9f.vercel.app/
-# create a new project in the current directory
-npm create svelte@latest
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+
+## Beschrijving
+Dit repository voor Fdnd we love web . Hierbij wordden er Interviewschema bekend, als iemand interesse heeft, Dan kan hij makkelijk de specific presentatie vinden met behulp van  Prismic.
+
+
+
 
 ## Developing
 

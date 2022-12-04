@@ -2,8 +2,7 @@
 
 ![Screenshot (73)](https://user-images.githubusercontent.com/90189815/205488279-1064c0a9-d95b-491b-bd45-f107adae5428.png)
 
-## Creati
-ng a project
+## Link to project https://lose-your-head-the-client-case-1e9f.vercel.app/
 # create a new project in the current directory
 npm create svelte@latest
 

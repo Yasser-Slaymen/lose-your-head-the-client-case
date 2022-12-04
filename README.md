@@ -19,13 +19,18 @@ Dit repository voor Fdnd we love web . Hierbij wordden er Interviewschema bekend
 * Figma
 
 
-## Building
+## 🧭Installatie & Gebruik
+# Cloning the repository
+git clone git@github.com:JustinLung/lose-your-head-the-client-case.git
 
-To create a production version of your app:
+# Moving to the folder
+cd lose-your-head-the-client-case
 
-```bash
-npm run build
-```
+# Install NPM packages
+npm install
+
+# Run local server
+npm run start
 
 You can preview the production build with `npm run preview`.
 

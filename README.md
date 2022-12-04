@@ -1,12 +1,9 @@
-# create-svelte
+# We Love Web
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+![Screenshot (73)](https://user-images.githubusercontent.com/90189815/205488279-1064c0a9-d95b-491b-bd45-f107adae5428.png)
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
+## Creati
+ng a project
 # create a new project in the current directory
 npm create svelte@latest
 

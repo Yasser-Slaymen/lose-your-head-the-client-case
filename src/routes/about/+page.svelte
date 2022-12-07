@@ -1,5 +1,4 @@
 <script>
-    // import { dev } from '$app/environment';
     import * as prismic from "@prismicio/helpers";
     export let data;
     const { documents } = data;
